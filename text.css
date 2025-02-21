@@ -6,7 +6,7 @@ body{
   height: 100%;
   margin:0;
   background: linear-gradient(135deg, rgba(127,178,133,1) 0%, rgba(160,237,252,1) 100%);
-  display: flex ;
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -24,4 +24,37 @@ body{
   width: 30vw;
   height: 30vw;
   margin-left: 0, auto;
+}
+
+.custom_button1{
+  background-color: rgba(229, 107, 111, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  outline: none;
+  width: 10%;
+  height: 10%;
+  font-size: 0px;
+  transition: 500ms;
+}
+
+.custom_button1:hover{
+  background-color: rgba(229, 107, 111, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  outline: none;
+  width: 10%;
+  height: 10%;
+  font-size: 24px;
+  transition: 500ms;
+}
+
+.custom_icon{
+  width: 50%;
+  height: 50%;
+}
+
+.hiddenText{
+  font-size: inherit;
 }
